@@ -1,1 +1,52 @@
-wdasFASF
+LAN, sınırlı bir alandaki bilgisayarları ve cihazları birbirine bağlayan bir ağ türüdür. Genellikle bir yönlendirici (router)
+anahtar (switch) ve Ethernet kabloları ya da kablosuz (Wi-Fi) bağlantılar kullanılır.
+
+
+WAN, coğrafi alana göre geniş bölgelere yayılmış ağ türüdür  Ulusal veya uluslararası ağ omurgası ile yayılır. Ofis, ev, küçük 
+ve büyük ölçekli işletme kullanıcıları ve mobil kullanıcılar bağlanabilir.WAN sayesinde çok uzaktaki kullanıcılar ve işletmeler bilgi paylaşımında
+bulunabilir Bağlantı hizmetlerini internet servis sağlayıcıları yapar. WAN: Fiber optik, kablolar, uydu, 4G/5G gibi çeşitli teknolojiler kullanır. ISP'ler tarafından yönetilir.
+
+WLAN; ağ iletim ortamının kablosuz olarak hizmet verdiği ağ türüdür. Yerel ve hücresel ağlar için tercih edilir.
+Kullanıcıların ve uç cihazların hareket hâlinde olması ve kablo maliyetinin olmaması, kablolu ağlara yerine bu ağların tercih edilmesini sağlar.
+WLAN: Wi-Fi (IEEE 802.11 standartları) kullanır. Kablosuz erişim noktaları (router/AP) ile çalışır.
+
+Merkez (Hub), bir veriyi başka bilgisayar veya ağ cihazlarına gönderen aygıtlardır.Bir bilgisayar veya cihazdan veri paketi gönderildiğinde bu veriyi üzerinde mevcut
+tüm portlarına ileten ağ aygıtıdır. OSİ modelinde fiziksel katman 1 de bulunur.
+
+Tekrarlayıcılar, bir ağda sinyaller uzun mesafeler kat ettiğinde ortaya çıkan zayıflamaya karşı koymak ve LAN uzunluğunu belirtilen maksimumun üzerine 
+çıkarmak dâhil olmak üzere çeşitli amaçlarla kullanılır. OSİ modelinde fiziksel katman 1 de bulunur.
+
+Bilgisayarların ve diğer cihazların bir ağa bağlanmasını sağlayan donanım bileşenine ağ arabirim kartı (NIC) denir.Osi modelinde veri ağı (katman2) bulunur.
+
+Anahtarlar, bağlantı noktalarından (port) gelen veriyi MAC veya IP adresi bilgisine göre filtreleyerek ilgili portlardaki bilgisayar veya bilgisayarlara ileten
+ağ cihazlarıdır. Anahtar, gelen veriyi sadece istenilen cihaz veya cihazlara; hub ise veriyi tüm cihazlara gönderir ve sadece ilgili aygıt veriyi alır. Anahtarlar, her
+bağlantı noktasını kendi çarpışma etki alanı hâline getirir. Osi Modelinde katman2 veya katman3 de bulunur yani ya veri ağında yada ağda olur.
+
+Yönlendiriciler, tüm ağ cihazları arasında en akıllı olanlardır. Verileri istenen bilgisayarlara iletmek için en verimli rotayı kullanmak üzere programlanabilir.
+OSI modelinin Ağ Katmanı 3 üzerinde çalışır ve veri paketlerini IP adreslerine göre bir ağdan diğerine yönlendirebilir. Osi modelinde  ağda yani katman3 de bulunur.
+
+RIP, yönlendiricilerin birbirine yollar hakkında bilgi göndererek, en kısa yol ilkesine göre ağ trafiğini yönlendirmesini sağlar.
+Router, bağlı olduğu ağlar hakkında bir yönlendirme tablosu (routing table) oluşturur.RIP, belirli aralıklarla her 30 saniyede bir tablodaki bilgileri komşu router’lara gönderir.
+Tablo güncellenir Komşulardan gelen bilgilerle, router:
+Yeni yollar öğrenir.
+Mevcut yolların süresini günceller.
+Daha kısa bir yol varsa, onu tercih eder. max atlama sayısı 15dir.
+Yavaş güncellenir.Ağ değişimlerine geç tepki verir.
+
+OSPF ise RIP'ten farklı olarak en kısa yolu tercih ederek ilerler. 
+[Router A]---1---[Router B]---3---[Router D]
+   |                     |
+   2                     1
+   |                     |
+[Router C]---------------
+direk A dan D ye gidicektir. RIP: Kaç “hop” var diye sayar, yani kaç router’dan geçeceğine bakar. OSPF ise Gerçek bağlantı maliyetlerine (mesafe, hız) göre hesaplar. Bu yüzden daha akıllıdır.
+
+ADSL Modem: ADSL, Asimetrik Dijital Abone Hattı anlamına gelir. Bakır telefon çiftleriyle geniş bant bağlantısı
+sağlamak için kullanılan bir ağ teknolojisidir. ADSL modem açıldığında otomatik olarak kurulan bir ağ bağlantısı sağlar
+
+CSU/DSU Modemler: İki farklı dijital sinyali birbirine dönüştürmek için kullanılır. Buradaki iki farklı sinyal,
+yerel alan ağından veya geniş alan ağından gelen veri çerçevesidir (data frame). Bu modemler, yerel alan ağındaki
+verinin geniş alan ağı verisine veya geniş alan ağındaki verinin yerel alan ağı verisine dönüştürülmesini sağlayan
+cihazlardır. Aynı zamanda fiziksel katmanda hata tespiti de yaparlar
+
+
