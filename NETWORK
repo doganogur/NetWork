@@ -49,4 +49,34 @@ yerel alan ağından veya geniş alan ağından gelen veri çerçevesidir (data 
 verinin geniş alan ağı verisine veya geniş alan ağındaki verinin yerel alan ağı verisine dönüştürülmesini sağlayan
 cihazlardır. Aynı zamanda fiziksel katmanda hata tespiti de yaparlar
 
+İstemci-Sunucu Modeli Nasıl Çalışır?
+İstemci bir talep gönderir (örneğin, tarayıcıya URL yazmak).
+
+Sunucu bu talebi işler ve yanıt döner (örneğin, web sayfasının HTML dosyalarını göndermek).
+
+İletişim protokoller (HTTP, HTTPS, FTP vb.) ile standartlaştırılmıştır.
+OSI Modeli ve TCP/IP Modeli, farklı cihazların nasıl iletişim kuracağını düzenleyen standartlardır.
+
+Örneğin, TCP/IP modeli: İnternetin temelini oluşturan protokoller kümesidir (IP adresleri, TCP/UDP ile veri iletimi).
+
+TCP (Transmission Control Protocol), bağlantı temelli ve güvenilir veri iletişimi sağlayan temel bir internet protokolüdür. İşleyişi ve özellikleri şöyledir:
+Bağlantı Temelli: Veri aktarımı öncesinde istemci ile sunucu arasında mantıksal bir bağlantı kurulur.
+
+Güvenilir İletim: Veriler kayıpsız, sıralı (sıra numaralarıyla) ve doğru şekilde hedefe ulaştırılır.
+
+Akış Kontrolü: Ağın veya alıcının kapasitesine göre veri iletim hızı ayarlanır.
+
+Çoklama (Multiplexing): Aynı anda birden fazla bağlantıya izin verir.
+
+SYN: İstemci, sunucuya bağlantı isteği gönderir.
+
+SYN-ACK: Sunucu isteği onaylar ve kendi bağlantı bilgisini iletir.
+
+ACK: İstemci, sunucunun onayını alıp veri aktarımını başlatır.
+
+Bağlantı kurulduktan sonra veri iletimi başlar.
+
+TCP, internetin temelini oluşturan protokollerden biridir. Web tarama, e-posta, dosya transferi gibi kritik işlemlerde kullanılır.
+Güvenilirliği, bağlantı öncesi el sıkışma süreci ve veri sıralama mekanizmasıyla sağlanır.
+
 
