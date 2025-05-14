@@ -79,4 +79,16 @@ Bağlantı kurulduktan sonra veri iletimi başlar.
 TCP, internetin temelini oluşturan protokollerden biridir. Web tarama, e-posta, dosya transferi gibi kritik işlemlerde kullanılır.
 Güvenilirliği, bağlantı öncesi el sıkışma süreci ve veri sıralama mekanizmasıyla sağlanır.
 
+UDP (User Datagram Protocol), internette hızlı ama güvenilmez iletişim sağlayan bir protokoldür. TCP'nin aksine, bağlantı kurmadan doğrudan veri gönderir.
+Kayıp veya sıra hatası umursanmaz, önemli olan hızdır
+
+Bağlantı Yok: Veri göndermek için önce karşı tarafla el sıkışmaz (TCP'deki gibi "three-way handshake" yok).
+Direkt Fırlatır: Veriyi paketler halinde hedefe gönderir. Alındı mı, sıralı mı? Önemsemez!
+Kontrol Yok: Paket kaybolursa veya bozulursa, tekrar göndermez.
+örnek;
+Oyuncu A, klavyede "W" tuşuna basarak karakterini ileri hareket ettirir.
+UDP Paketi 1: "Karakter X koordinatına gidiyor" bilgisi sunucuya gönderilir.
+UDP Paketi 2: 0.1 saniye sonra "Karakter Y koordinatına ulaştı" bilgisi gönderilir.
+
+
 
