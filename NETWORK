@@ -97,3 +97,6 @@ Siz ofisteki bilgisayarınızdan (İstemci),
 Evdeki bilgisayarınıza (Sunucu) Telnet ile bağlanıyorsunuz.
 Evdeki bilgisayarda shutdown /s yazarsanız, evdeki bilgisayar kapanır
 
+SSH, güvenli uzaktan erişim sağlayan bir protokoldür. Telnet'in güvenli versiyonu gibi düşünebilirsiniz.
+İnternet üzerinden bir bilgisayara bağlanıp komut çalıştırırken, verilerinizi şifreleyerek korur.
+
