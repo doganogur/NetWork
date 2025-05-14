@@ -90,5 +90,10 @@ Oyuncu A, klavyede "W" tuşuna basarak karakterini ileri hareket ettirir.
 UDP Paketi 1: "Karakter X koordinatına gidiyor" bilgisi sunucuya gönderilir.
 UDP Paketi 2: 0.1 saniye sonra "Karakter Y koordinatına ulaştı" bilgisi gönderilir.
 
+Telnet (Telecommunication Network): Uzaktaki bir bilgisayara veya cihaza bağlanıp onu komut satırı aracılığıyla yönetmek için kullanılan eski bir ağ protokolüdür.
+İnternetin ilk yıllarında yaygın olarak kullanılsa da günümüzde yerini daha güvenli protokollere bırakmıştır.
 
+Siz ofisteki bilgisayarınızdan (İstemci),
+Evdeki bilgisayarınıza (Sunucu) Telnet ile bağlanıyorsunuz.
+Evdeki bilgisayarda shutdown /s yazarsanız, evdeki bilgisayar kapanır
 
